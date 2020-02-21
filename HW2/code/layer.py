@@ -81,6 +81,11 @@ class FullyConnected(object):
         dv_W = np.empty(self.W.shape, dtype=np.float32)
         dv_b = np.empty(self.b.shape, dtype=np.float32)
 
+        # the derivative of the output with respect to the input, weight and bias
+        dv_x = np.dot(self.W.T, dv_y)
+        dv_W = np.multiply(dv_y.reshape(dv_y.shape[0], -1), x.reshape(x.shape[0], -1).T)
+        dv_b = dv_y
+
         # don't change the order of return values
         return dv_x, dv_W, dv_b
 
@@ -210,6 +215,51 @@ class Conv2D(object):
         dv_b = np.empty(self.b.shape, dtype=np.float32)
         dv_x = np.empty(x.shape, dtype=np.float32)
 
+        in_c, in_h, in_w = x.shape
+        out_c, in_c, f_h, f_w = self.W.shape
+        out_c, out_h, out_w = dv_y.shape
+        h_stride = s[0]
+        w_stride = s[1]
+        h_pad = p[0]
+        w_pad = p[1]
+
+
+        # for f in range(out_c):
+        #     for i in range(f_h):
+        #         for j in range(f_w):
+        #             for k in range(out_h):
+        #                 for l in range(out_w):
+        #                     for c in range(in_c):
+        #                         dv_W[f, c, i, j] += x_padded[c, i*h_stride+k, j*w_stride+l]*dv_y[f, k, l]
+        #
+        # doutp = np.pad(dv_y, ((0, 0), (p[0], p[0]), (p[1], p[1])), mode='constant')
+        # dv_x = np.pad(dv_x, ((0, 0), (p[0], p[0]), (p[1], p[1])), mode='constant')
+        # w_ = np.zeros_like(self.W)
+        # for i in range(f_h):
+        #     for j in range(f_w):
+        #         w_[:, :, i, j] = self.W[:, :, f_h - i - 1, f_w - j - 1]
+        #
+        # for f in range(out_c):
+        #     for i in range(f_h+2*h_pad):
+        #         for j in range(f_w+2*w_pad):
+        #             for k in range(out_h):
+        #                 for l in range(out_w):
+        #                     for c in range(in_c):
+        #                         dv_x[c, i, j] += doutp[f, i+k, j+l]*w_[c, k, l]
+        # dv_x = dv_x[:, :, h_pad:-h_pad, w_pad:-w_pad]
+        # dv_b = np.sum(dv_y, axis=(0, 2, 3))
+        for c in range(out_c):
+            for f in range(in_c):
+                for h in range(out_h):
+                    for w in range(out_w):
+
+
+                        dv_x[f, h*h_stride:h*h_stride + f_h, w*w_stride:w*w_stride + f_w] += dv_y[c, h, w] * self.W[c, f]
+
+                        dv_W[c, f] += x[f, h*h_stride:h*h_stride + f_h, w*w_stride:w*w_stride + f_w]*dv_y[c, h, w]
+                        dv_b[f] += dv_y[c, h, w]
+                        print(dv_x[c, h*h_stride:h*h_stride + f_h, w*w_stride:w*w_stride + f_w])
+
         # don't change the order of return values
         return dv_x, dv_W, dv_b
 
@@ -291,6 +341,22 @@ class MaxPool2D:
 
         # TODO: write your implementation below
         dv_x = np.empty(x.shape, dtype=np.float32)
+
+
+        out_c, out_h, out_w = dv_y.shape
+        h_stride = s[0]
+        w_stride = s[1]
+        h_pad = p[0]
+        w_pad = p[1]
+
+        for c in range(out_c):
+            for h in range(out_h):
+                for w in range(out_w):
+                    x_region = x_padded[c, h*h_stride:h*h_stride + self.kernel_size[0], w*w_stride:w*w_stride
+                                                                                            + self.kernel_size[1]]
+                    mask = (x_region == np.max(x_region))
+                    dv_x[c, h*h_stride:h*h_stride + self.kernel_size[0], w*w_stride:w*w_stride + self.kernel_size[1]] \
+                        = mask*dv_y[c, h, w]
 
         return dv_x
 
