@@ -16,3 +16,6 @@ Assignments for CSC449
   ## Some Resources
   A Comprehensive Guide to Convolutional Neural Networks</br>
   https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+  
+  ml-cheatsheet</br>
+  https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html
