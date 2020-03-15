@@ -19,3 +19,6 @@ Assignments for CSC449
   
   ml-cheatsheet</br>
   https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html
+
+  Stochastic Gradient Descent with momentum</br>
+  https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d
