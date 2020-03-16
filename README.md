@@ -26,5 +26,5 @@ Assignments for CSC449
   PyTorch学习笔记(6)——DataLoader源代码剖析</br>
   https://blog.csdn.net/g11d111/article/details/81504637
   
-  Fourier Transform? A visual introduction
+  Fourier Transform? A visual introduction</br>
   https://www.youtube.com/watch?v=spUNpyF58BY
