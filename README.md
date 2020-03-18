@@ -28,3 +28,6 @@ Assignments for CSC449
   
   Fourier Transform? A visual introduction</br>
   https://www.youtube.com/watch?v=spUNpyF58BY
+  
+  Canny Edge Detection Step by Step in Python — Computer Vision</br>
+  https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123
