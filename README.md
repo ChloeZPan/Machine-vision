@@ -1,5 +1,7 @@
 # Machine-vision
-Assignments for CSC449
+Assignments for CSC449: HW1 and HW2
+
+The rest assignments are in independent repositories.
 
 ## Problem Solved
 - initialize array: empty or zero </br>
