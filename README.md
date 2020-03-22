@@ -16,16 +16,16 @@ Assignments for CSC449
  - virtual environment</br>
    Use venv in pycharm terminal</br>
    
-   `cd venv/bin</br>
-   `source activate</br>
+   `cd venv/bin`</br>
+   `source activate`</br>
  
-   `deactivate
+   `deactivate`
   
  - wget in Mac
  
- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" </br>
+ `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`</br>
  
- `brew install wget
+ `brew install wget`
   
   ## Some Resources
   A Comprehensive Guide to Convolutional Neural Networks</br>
