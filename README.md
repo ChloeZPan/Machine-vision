@@ -12,6 +12,14 @@ Assignments for CSC449
  - overlap of mask</br>
    A good way to calculate when no overlapping</br>
    mask = (x_region == np.max(x_region))
+   
+ - virtual environment</br>
+   Use venv in pycharm terminal</br>
+   
+   cd venv/bin
+   source activate
+ 
+   deactivate
   
   ## Some Resources
   A Comprehensive Guide to Convolutional Neural Networks</br>
