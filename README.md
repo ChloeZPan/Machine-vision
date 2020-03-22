@@ -16,13 +16,14 @@ Assignments for CSC449
  - virtual environment</br>
    Use venv in pycharm terminal</br>
    
-   `cd venv/bin
-   `source activate
+   `cd venv/bin</br>
+   `source activate</br>
  
    `deactivate
   
  - wget in Mac
- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+ 
+ `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" </br>
  
  `brew install wget
   
