@@ -17,6 +17,7 @@ The rest assignments are in independent repositories.
    
  - virtual environment</br>
    Use venv in pycharm terminal</br>
+   https://zhuanlan.zhihu.com/p/60647332
    
    `cd venv/bin`</br>
    `source activate`</br>
@@ -25,9 +26,9 @@ The rest assignments are in independent repositories.
   
  - wget in Mac
  
- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`</br>
- 
- `brew install wget`
+   `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`</br>
+
+   `brew install wget`
   
   ## Some Resources
   A Comprehensive Guide to Convolutional Neural Networks</br>
@@ -55,7 +56,7 @@ ssh commend
 Create an SSH connection to your machine.
 The following command SSH's you into your machine. In addition, it forwards port 8080 on the VM to port 8080 on your local machine.
   
-  `gcloud compute ssh --project e-key-271905 --zone us-west1-b pytorch-vm -- -L 8080:localhost:8080`
+`gcloud compute ssh --project e-key-271905 --zone us-west1-b pytorch-vm -- -L 8080:localhost:8080`
   
 (Optional) Copy files to your VM from your local machine.
 You can use the gcloud tool to upload files to your machine.
