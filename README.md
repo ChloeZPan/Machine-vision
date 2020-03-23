@@ -49,18 +49,3 @@ The rest assignments are in independent repositories.
   Canny Edge Detection Step by Step in Python — Computer Vision</br>
   https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123
   
-  
-  
-  
-ssh commend
-Create an SSH connection to your machine.
-The following command SSH's you into your machine. In addition, it forwards port 8080 on the VM to port 8080 on your local machine.
-  
-`gcloud compute ssh --project e-key-271905 --zone us-west1-b pytorch-vm -- -L 8080:localhost:8080`
-  
-(Optional) Copy files to your VM from your local machine.
-You can use the gcloud tool to upload files to your machine.
-
-`gcloud compute scp --project e-key-271905 --zone us-west1-b --recurse <local file or directory> pytorch-vm:~/`
-  
-  
