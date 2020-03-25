@@ -49,3 +49,8 @@ The rest assignments are in independent repositories.
   Canny Edge Detection Step by Step in Python — Computer Vision</br>
   https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123
   
+  Matrix derivatives
+  https://blog.csdn.net/promisejia/article/details/80159619
+  
+  Properties of the Trace and Matrix Derivatives
+  https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf
