@@ -1,7 +1,7 @@
 # Machine-vision
-Assignments for CSC449: HW1 and HW2
+Assignments for CSC449
 
-The rest assignments are in independent repositories.
+Some parts of HW3 are in DCF-tracker and Hough-Transform repository.
 
 ## Problem Solved
 - initialize array: empty or zero </br>
