@@ -22,10 +22,11 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
    
    `cd venv/bin`</br>
    `source activate`</br>
- 
    `deactivate`
   
-    or</br>
+    conda env</br>
+    https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+    
     `cd miniconda3/bin`</br>
     `source activate`</br>  
     `conda init`
