@@ -25,10 +25,10 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
  
    `deactivate`
   
-  or</br>
-  `cd miniconda3/bin`</br>
-  `source activate`</br>  
-  `conda init`
+    or</br>
+    `cd miniconda3/bin`</br>
+    `source activate`</br>  
+    `conda init`
   
  - wget in Mac
  
