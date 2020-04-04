@@ -24,6 +24,11 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.
  
    `deactivate`
   
+  or</br>
+  `cd miniconda3/bin`</br>
+  `source activate`</br>  
+  `conda init`
+  
  - wget in Mac
  
    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`</br>
@@ -49,8 +54,8 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.
   Canny Edge Detection Step by Step in Python — Computer Vision</br>
   https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123
   
-  Matrix derivatives
+  Matrix derivatives</br>
   https://blog.csdn.net/promisejia/article/details/80159619
   
-  Properties of the Trace and Matrix Derivatives
+  Properties of the Trace and Matrix Derivatives</br>
   https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf
