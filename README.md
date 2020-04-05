@@ -60,7 +60,7 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
   Stochastic Gradient Descent with momentum</br>
   https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d
   
-  PyTorch学习笔记(6)——DataLoader源代码剖析</br>
+  PyTorch - DataLoader</br>
   https://blog.csdn.net/g11d111/article/details/81504637
   
   Fourier Transform? A visual introduction</br>
@@ -74,3 +74,6 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
   
   Properties of the Trace and Matrix Derivatives</br>
   https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf
+
+  Pytorch - Word Embedding</br>
+  https://www.pytorchtutorial.com/10-minute-pytorch-7/
