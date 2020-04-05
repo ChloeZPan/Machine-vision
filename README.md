@@ -77,3 +77,9 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
 
   Pytorch - Word Embedding</br>
   https://www.pytorchtutorial.com/10-minute-pytorch-7/
+  
+  Pytroch - pack_padded_sequence()</br>
+  https://www.cnblogs.com/sbj123456789/p/9834018.html</br>
+  https://blog.csdn.net/lssc4205/article/details/79474735
+  
+  
