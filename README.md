@@ -37,6 +37,19 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
 
    `brew install wget`
   
+  - download file from google drive
+  
+    `pip install gdown`</br>
+    `gdown https://drive.google.com/uc?id=file_id`
+    
+    
+    `gdown https://drive.google.com/uc?id=1ZqJs2AGtMTfGTgH1oHTP_ZEFXRNX3uLj`
+
+  - permission denied when run ./get_stanford_models.sh
+  
+    `chmod u+x get_stanford_models.sh`</br>
+    `./get_stanford_models.sh`
+  
   ## Some Resources
   A Comprehensive Guide to Convolutional Neural Networks</br>
   https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
