@@ -50,6 +50,12 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
     `chmod u+x get_stanford_models.sh`</br>
     `./get_stanford_models.sh`
   
+  - _tkinter.TclError: no display name and no $DISPLAY environment variable</br>
+    https://stackoverflow.com/questions/37604289/tkinter-tclerror-no-display-name-and-no-display-environment-variable
+    
+    `import matplotlib`</br>
+    `matplotlib.use('Agg')`
+
   ## Some Resources
   A Comprehensive Guide to Convolutional Neural Networks</br>
   https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
