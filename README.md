@@ -88,4 +88,6 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
   https://www.cnblogs.com/sbj123456789/p/9834018.html</br>
   https://blog.csdn.net/lssc4205/article/details/79474735
   
+  N-gram</br>
+  https://blog.csdn.net/songbinxu/article/details/80209197
   
