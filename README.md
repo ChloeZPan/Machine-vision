@@ -91,3 +91,17 @@ Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
   N-gram</br>
   https://blog.csdn.net/songbinxu/article/details/80209197
   
+  LSTM</br>
+  https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+  
+  Image Captioning (CNN-RNN)</br>
+  https://shenxiaohai.me/2018/10/22/pytorch-tutorial-advanced-04/
+  
+  Embed attention mechanism into image cpation model</br>
+  https://www.jianshu.com/p/79f48437a442
+  
+  Input and output dimension in rnn,lstm,gru</br>
+  https://www.jianshu.com/p/b942e65cb0a3
+  
+  Pytorch from scratch</br>
+  https://baijiahao.baidu.com/s?id=1597446499634684834&wfr=spider&for=pc
