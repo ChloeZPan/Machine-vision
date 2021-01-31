@@ -1,8 +1,10 @@
 # Machine-vision
-Assignments for CSC449
-Some parts of HW3 are in DCF-tracker and Hough-Transform repository.</br>
+Notes for CSC449
+More in the following teo repo:</br>
   Hough transformation https://github.com/ChloeZPan/Hough-Transform</br>
   DCF tracker https://github.com/ChloeZPan/DCF-tracker
+  
+Due to the course policy, I cannot post my code.
 
 ## Problem Solved
 - initialize array: empty or zero </br>
