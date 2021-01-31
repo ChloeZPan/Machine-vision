@@ -1,5 +1,5 @@
 # Machine-vision
-Notes for CSC449
+Notes for CSC449. </br>
 More in the following teo repo:</br>
   Hough transformation https://github.com/ChloeZPan/Hough-Transform</br>
   DCF tracker https://github.com/ChloeZPan/DCF-tracker
